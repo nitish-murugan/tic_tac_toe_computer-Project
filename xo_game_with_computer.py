@@ -156,8 +156,6 @@ def player2():
 
 def checking():
     global loop
-    #print("checking loop is being executed")
-    #print(a11!="-" and a22!="-" and a33!="-")
     if(a11!="-" and a12!="-" and a13!="-"):
         if(a11==a12==a13):
             
@@ -223,15 +221,7 @@ def checking():
             print("------------------------------------------- \n\n")
             loop = False
             
-    
-    #print(a11==a12==a13 or a21==a22==a23 or a31==a32==a33 or a11==a21==a31 or a12==a22==a32 or a13==a23==a33 or a11==a22==a33 or a13==a22==a31)
-
-#checking()
-
-
-
- 
-
+  
 while(1):
     printxo()
     flag = 0
